@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.left-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.checkout-page {
+  display: flex;
+}
+
+.checkout-main {
+  flex: 4;
+}
+
+.checkout-bill {
+  flex: 1;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.checkout {
+  border: none;
+  padding: 10px;
+  width: 230px;
+}
